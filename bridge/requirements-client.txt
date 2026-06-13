@@ -1,0 +1,4 @@
+# Client-side helpers (Mac local_test_client.py) need PortAudio.
+sounddevice==0.5.5
+numpy>=2.0
+websockets==16.0

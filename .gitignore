@@ -1,0 +1,38 @@
+# Secrets / credentials
+.env
+.env.local
+.env.*.bak
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Skill installs (lockfile is tracked, contents regenerate from it)
+.agents/skills/
+
+# Claude Code per-machine settings
+.claude/settings.local.json
+
+# Build / temporary artifacts
+*.bin
+*.elf
+*.map
+build/
+dist/

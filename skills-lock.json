@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "skills": {
+    "embedded-systems": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "skillPath": "skills/embedded-systems/SKILL.md",
+      "computedHash": "1631345781a5ed3ba2a780a710b8c23cb1b0abaaf576164c40d15b20683d2f6e"
+    },
+    "esp-idf-setup": {
+      "source": "laurigates/mcu-tinkering-lab",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/esp-idf-setup/SKILL.md",
+      "computedHash": "2f206298a7a5da1dbdcad95266fc0c1916a6142d7820ff347d39de607e422f99"
+    },
+    "esp32-debugging": {
+      "source": "laurigates/mcu-tinkering-lab",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/esp32-debugging/SKILL.md",
+      "computedHash": "80ff546cd24704e8066ac06fd42dce1e95d9e3cffaa7bf638b18f928fecf8088"
+    },
+    "esp32-firmware-engineer": {
+      "source": "adamlipecz/esp32-firmware-engineer-skill",
+      "sourceType": "github",
+      "skillPath": "esp32-firmware-engineer/SKILL.md",
+      "computedHash": "3df8fc9d1ba783e4f09c59cf728cfb73cecfca89eece4a3b5b7d7e3e62068b6e"
+    },
+    "esp32-serial-commands": {
+      "source": "h1d/agent-skills-esp32",
+      "sourceType": "github",
+      "skillPath": "skills/esp32-serial-commands/SKILL.md",
+      "computedHash": "5e806e69783cc696b18cb90f1a904b0ae6d721b0c0b41641478d3dc810ff1f8c"
+    },
+    "esp32-serial-logging": {
+      "source": "h1d/agent-skills-esp32",
+      "sourceType": "github",
+      "skillPath": "skills/esp32-serial-logging/SKILL.md",
+      "computedHash": "c90b2fc29bb3263c33086a98aab3396cbd273cd9872ee86f7a540cf444bda108"
+    }
+  }
+}

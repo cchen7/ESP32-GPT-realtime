@@ -1,0 +1,18 @@
+[Unit]
+Description=gpt-assistant bridge (M5Stack voice device ↔ Azure OpenAI Realtime)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h/work/gpt-assistant-bridge
+ExecStart=%h/work/gpt-assistant-bridge/.venv/bin/python -u -m bridge.server
+Restart=on-failure
+RestartSec=5
+
+# Surface logs in `journalctl --user -u gpt-bridge -f`.
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=default.target
